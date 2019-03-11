@@ -44,7 +44,7 @@ def solve(data):
     result = upper - lower
     if include:
         result += 1
-    return f'{result}'
+    return '{}'.format(result)
 
 
 if __name__ == '__main__':
